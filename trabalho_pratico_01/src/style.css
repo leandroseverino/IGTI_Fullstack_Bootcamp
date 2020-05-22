@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.container h1 {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.container .color_selector {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.container .color_selector span {
+  display: block;
+  width: 150px;
+}
+
+.container input[type="text"] {
+  height: 18px;
+  width: 50px;
+  text-align: center;
+}
+
+.container #square {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}

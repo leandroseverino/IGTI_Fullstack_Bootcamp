@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UFT-8" />
+    <title>Trabalho Prático 01 - Escala RGB</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>Color Selector</h1>
+        <div class="color_selector">
+          <span>(R) Red:</span>
+          <span>
+            <input id="redRangeSelector" type="range" min="0" max="255" />
+          </span>
+          <span>
+            <input id="redOutputValue" type="text" disabled />
+          </span>
+        </div>
+        <div class="color_selector">
+          <span>(G) Green:</span>
+          <span>
+            <input id="greenRangeSelector" type="range" min="0" max="255" />
+          </span>
+          <span>
+            <input id="greenOutputValue" type="text" disabled />
+          </span>
+        </div>
+        <div class="color_selector">
+          <span>(B) Blue:</span>
+          <span>
+            <input id="blueRangeSelector" type="range" min="0" max="255" />
+          </span>
+          <span>
+            <input id="blueOutputValue" type="text" disabled />
+          </span>
+        </div>
+        <div id="square"></div>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
